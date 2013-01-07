@@ -1,0 +1,466 @@
+
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>FRAG</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  <div class="row">
+    <div class="twelve columns">
+      <h2>F R A G</h2>
+      <hr />
+    </div>
+  </div>
+
+<!--
+  <div class="row">
+  	<div class="twelve columns">
+      <dl class="tabs">
+        <dd class="active"><a href="#simple1">Character</a></dd>
+        <dd><a href="#simple2">Equiptment</a></dd>
+        <dd><a href="#simple3">Attack</a></dd>
+      </dl>
+
+      <ul class="tabs-content">
+        <li class="active" id="simple1Tab">This is simple tab 1's content. Pretty neat, huh?</li>
+        <li id="simple2Tab">This is simple tab 2's content. Now you see it!</li>
+        <li id="simple3Tab">This is simple tab 3's content. It's, you know...okay.</li>
+      </ul>
+
+  	</div>
+  </div>
+-->
+<div class="row">
+	<form class="custom">
+    <div class="four columns">
+		<div class="panel">
+			<h3>Character</h3>
+		</div>
+
+			<fieldset>
+				<legend>Speed</legend>	
+				<label>Base</label>
+  				<div class="row plus_minus_group">
+  					<div class="seven columns">
+						<input type="text" value="0" placeholder="Base">
+					</div>
+					<div class="five columns">
+						<ul class="button-group radius">
+						  <li><a href="#" class="btn_plus button success radius"> + </a></li>
+						  <li><a href="#" class="btn_minus button alert radius"> - </a></li>
+						</ul>
+					</div>
+				</div>
+				<label>Bonus</label>
+  				<div class="row plus_minus_group">
+  					<div class="seven columns">
+						<input type="text" value="0" placeholder="0">
+					</div>
+					<div class="five columns">
+						<ul class="button-group radius">
+						  <li><a href="#" class="btn_plus button  success radius"> + </a></li>
+						  <li><a href="#" class="btn_minus button  alert radius"> - </a></li>
+						</ul>
+					</div>
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Health</legend>	
+				<label>Base</label>
+  				<div class="row plus_minus_group">
+  					<div class="seven columns">
+						<input type="text" value="0" placeholder="Base">
+					</div>
+					<div class="five columns">
+						<ul class="button-group radius">
+						  <li><a href="#" class="btn_plus button  success radius"> + </a></li>
+						  <li><a href="#" class="btn_minus button  alert radius"> - </a></li>
+						</ul>
+					</div>
+				</div>
+				<label>Bonus</label>
+  				<div class="row plus_minus_group">
+  					<div class="seven columns">
+						<input type="text" value="0" placeholder="0">
+					</div>
+					<div class="five columns">
+						<ul class="button-group radius">
+						  <li><a href="#" class="btn_plus button  success radius"> + </a></li>
+						  <li><a href="#" class="btn_minus button  alert radius"> - </a></li>
+						</ul>
+					</div>
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Aim</legend>	
+				<label>Base</label>
+  				<div class="row plus_minus_group">
+  					<div class="seven columns">
+						<input type="text" value="0" placeholder="Base">
+					</div>
+					<div class="five columns">
+						<ul class="button-group radius">
+						  <li><a href="#" class="btn_plus button  success radius"> + </a></li>
+						  <li><a href="#" class="btn_minus button  alert radius"> - </a></li>
+						</ul>
+					</div>
+				</div>
+				<label>Bonus</label>
+  				<div class="row plus_minus_group">
+  					<div class="seven columns">
+						<input type="text" value="0" placeholder="0">
+					</div>
+					<div class="five columns">
+						<ul class="button-group radius">
+						  <li><a href="#" class="btn_plus button  success radius"> + </a></li>
+						  <li><a href="#" class="btn_minus button  alert radius"> - </a></li>
+						</ul>
+					</div>
+				</div>
+			</fieldset>
+    </div>
+
+    <div class="four columns">
+		<div class="panel">
+			<h3>Equiptment</h3>
+		</div>
+		<fieldset>
+				<legend>Gun 1</legend>	
+				<div class="row">
+					<div class="twelve columns">
+						<label for="customDropdown">Dropdown Label</label>
+						  <select class="support attribute" style="display:none;" id="customDropdown">
+						    <option SELECTED>Select G</option>
+						    <option>G1</option>
+						    <option>G2</option>
+						    <option>G3</option>
+						  </select>
+						  <div class="custom dropdown">
+						    <a href="#" class="current">
+						      Select G
+						    </a>
+						    <a href="#" class="selector"></a>
+						    <ul>
+						      <li>Select G</g>
+						      <li>G1</li>
+						      <li>G2</li>
+						      <li>G3</li>
+						    </ul>
+						  </div>
+					</div>
+				</div>
+  				<div class="row plus_minus_group">
+  					<div class="seven columns">
+						<input type="text" value="0" placeholder="Base">
+					</div>
+					<div class="five columns">
+						<ul class="button-group radius">
+						  <li><a href="#" class="btn_plus button success radius"> + </a></li>
+						  <li><a href="#" class="btn_minus button alert radius"> - </a></li>
+						</ul>
+					</div>
+				</div>
+			</fieldset>
+    </div>
+
+    <div class="four columns">
+		<div class="panel">
+			<h3>Attack</h3>
+		</div>
+		<div class="row">
+			<form>
+				<fieldset>
+					<legend>Calculate Damage</legend>
+					<label>Attack Die</label>
+					<div class="row plus_minus_group">
+	  					<div class="seven columns">
+							<input type="text" value="0" id="atk_die" placeholder="0">
+						</div>
+						<div class="five columns">
+							<ul class="button-group radius">
+							  <li><a href="#" class="btn_plus button  success radius"> + </a></li>
+							  <li><a href="#" class="btn_minus button  alert radius"> - </a></li>
+							</ul>
+						</div>
+					</div>
+
+					<label>Health Die</label>
+					<div class="row plus_minus_group">
+	  					<div class="seven columns">
+							<input type="text" value="0" id="def_die" placeholder="0">
+						</div>
+						<div class="five columns">
+							<ul class="button-group radius">
+							  <li><a href="#" class="btn_plus button  success radius"> + </a></li>
+							  <li><a href="#" class="btn_minus button  alert radius"> - </a></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="row">
+						<div class="twelve columns">
+							<a href="#" id="roll_btn" class="button  success radius">ROLL<a/>
+						</div>
+					</div>
+					<br>
+				</fieldset>
+
+				<fieldset>
+					<legend>Damage</legend>
+					<div class="row" id="roll_result">
+						<input type="text" id="result_attack" placeholder="Attack Roll" disabled>
+						<input type="text" id="result_defence" placeholder="Defence Roll" disabled>
+						<input type="text" id="result_damage" placeholder="Damage Taken" disabled>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+    </div>
+</form>
+</div>
+
+<div class="row">
+	<div class="six columns">
+		<h3>Cards</h3>
+		<p>There are three decks. Keep a separate discard pile for each deck. When a deck runs out, reshuffle the discards.</p>
+
+<p>The cards in your hand are hidden from the other players. As long as it is your
+turn, your game hand may contain any number of cards. When your turn ends, you
+must have five or fewer cards in your hand. You may get rid of cards by playing
+them on your fighter, on another fighter, or by discarding.</p>
+
+<p>A card is considered in play once you place it in front of you or play it on another player.
+Cards in play do not count against the size of your hand. There is no limit to the number of
+gadget cards you can have in play. You are limited to a number of weapon cards in play equal
+to your Health plus 1. You may not give cards away.</p>
+
+<p>Weapons or  Gadgets in play belong to your current fighter. They are all lost when 
+he is fragged (see below). Gadget cards are marked with a letter representing what they affect:
+A for armor, H for Health, W for Weapon, and M for Movement.
+Special cards in play belong to you, the player, and are not lost when you are fragged. However, most of them have time limits.</p>
+
+<p>Some cards boost one or more of your stats, or your weapon damage. Some special cards help
+ALL players. Remember to check the special cards in play before you start your turn.
+Contradictory cards: Cards always take precedence over the rules, because the whole point
+of many cards is to allow you to break a rule. If two cards contradict each other (for instance, an
+automatic hit and an automatic miss), the last one played is the one that controls</p>
+	</div>
+
+	<div class="six columns">
+		<h3>Game Phases</h3>
+			<p>Each turn goes through the following four phases:</p>
+
+<p><b>1.  CHECK FOR RESPAWN:</b> If you are currently fragged and out of play, roll a die and respawn your figure in the appropriate square.</p>
+
+<p><b>2. ROLL FOR MOVEMENT:</b> You must roll to see how far you can move (or declare you are using a teleport card) before you do anything else.</p>
+
+<p><b>3. MOVEMENT / POWER UP / ATTACK:</b> These may happen in any order, until you run out of movement and attacks, or until you declare you’re through. You may move, attack, enter a power-up square and roll to see if you get something, move more, attack again (if you have two attacks), and so on. Just be sure to keep careful track of your movement if you decide to split your move.</p>
+
+<p><b>4. FINISH:</b> Tell the next player that it’s his turn.</p>
+
+<h3>Respawning</h3>
+<p>In this game, if you get fragged, you are only out until your next turn. Then you “respawn.” Your new fighter is unhurt – he has your original starting stats. But he has no weapons except his starting pistol, and no armor, unless you play cards from your hand to give him some.</p>
+
+<p><b>Bumping:</b> If someone respawns or teleports into an occupied square, the original occupant is “bumped.” He must immediately roll a die and move to the indicated respawn square. This may bump someone else (even the one who bumped him), who must then roll to see where HE goes, and so on.</p>
+	</div>
+</div>
+
+<div class="row">
+ <hr />
+</div>
+  
+  <div class="row">
+	<div class="six columns">
+		<h3>Movement</h3>
+		<p>Each turn, roll a number of dice equal to your fighter’s Speed, plus any modifiers for cards in play. That is the number of squares you may move this turn. You do not have to take your full movement, but you cannot save unused movement for a later turn.</p>
+
+<p>Movement is to orthogonal squares only, not diagonal ones (see diagram on next page). You may move through a square occupied by another figure, but you cannot end your turn in an occupied square, and you cannot attack from an occupied square.</p>
+
+<p>If you have a very high movement, and you are (for instance) interrupting it with attacks, you can use the Current Movement track on your record sheet to keep track of how much of your movement you have used.</p>
+
+<p><b>Powering Up:</b> If you enter a square marked with the weapon or gadget symbol, you have a 50% chance of drawing a card. Roll a die immediately. On a roll of 4-6, draw the appropriate type of card and place it in your hand. There is no limit to the number of power-up squares you may move through on your turn, but each square may only be checked once during your turn.</p>
+
+<p>You may not move back and forth over a power-up square trying to collect cards.</p>
+
+<p>You may also grab weapons left over when somebody is fragged. See Leftovers, below.</p>
+
+	</div>
+	<div class="six columns">
+<p><b>Jumping:</b> Your Speed stat governs how far you can jump. Speed of 1 means you can only “jump” to the next square, which is no jump at all. Speed of 2 lets you jump 2 squares, completely avoiding any hazards in the square you jump over. Speed of 3 lets you jump 3 squares (avoiding two), and so on. Jumps must be in a straight line. You cannot jump over walls.</p>
+
+<p>Jumping costs double. If you jump 2 squares, you spend 4 movement.</p>
+
+<p><b>Acid:</b> Shown on the map as green and bubbling, acid eats away at your fighter. Each time you enter an acid square, you suffer an attack worth 2 dice.</p>
+
+<p><b>Doors:</b> You can move through one-way doors only in the direction of the arrow. Doors don’t slow your movement. A closed door is the same as a wall. The door colors do not affect game play unless you are using the Frag expansion, Death Match.</p>
+
+<p><b>Grates:</b> The grates are a cosmetic feature of the map and have no purpose in game play. Yet.</p>
+
+<p><b>Teleporters:</b> A teleporter square is indicated by the symbol shown at right. If you are on a teleporter square, you may move either to a normally adjacent square, or to any other teleporter square. Moving to another teleporter square costs 1, as for a normal move.</p>
+
+<p><b>Walls:</b> Walls stop all movement and weapon effects. You cannot jump over them, shoot through them, or otherwise penetrate them. If a wall goes diagonally through a square, remember to keep your fighter on the correct side of the wall.</p>
+	</div>
+</div>
+
+<div class="row">
+ <hr />
+</div>
+
+<div class="row">
+	<div class="six columns">
+		<h3>Attacking</h3>
+<p>Each turn, you may attack a number of times equal to half your Accuracy, rounded up. So Accuracy 4 (the maximum possible for a starting fighter) gives 2 attacks per turn. You may not save unused attacks for later.</p>
+
+<p>You may attack any target in Line of Sight. Draw a straight line between the center of your square and the center of the target square – if there are no obstacles or other fighters in that line, the target is in Line of Sight. Note that doors block line of sight. A wall or corner on a diagonal line IS an obstacle – see diagram.</p>
+
+<p>A special case: Some doors lie between two squares, and some are within a single square. A fighter in a door square is holding the door open. He has a LOS to either side of the door. If he moves or is fragged, the door closes.</p>
+
+<p><b>Declaring your attack:</b> You must declare your weapon before rolling an attack. This may be: </p>
+<p>(a) the basic pistol everyone starts with: 2 dice damage, unlimited ammo.</p>
+<p>(b) a Weapon card already in play in front of you.</p>
+<p>(c) a new Weapon card played from your hand as you declare the attack.</p>
+
+<p><b>Recording ammo:</b> Most weapon cards include an ammo track. Before you roll to hit, move the bullet counter on the card to adjust its ammo down by 1 (or more, depending on any special rules printed on the card). You do not have to discard a weapon that is out of ammo, but you may not fire it again until you have reloaded it with a gadget card.</p>
+
+<p>A fighter’s basic pistol has unlimited ammo and cannot  be lost.</p>
+
+<p><b>Rolling to hit:</b> Count the number of squares between you and the target (count the square the target is in, but not your own). You must roll this number (or higher) on a number of dice equal to your Accuracy. If you hit, go on to resolve damage.</p>
+
+<p><b>Damage:</b> The target rolls a number of dice equal to his current Health (as modified by any cards, or damage from previous attacks). The attacker rolls a number of dice equal to the weapon’s damage rating. If the weapon card says 6d, for instance, you roll 6 dice. Now divide the attack roll by the defense roll, discarding any remainder. The result is the number of Health points lost by the target. If the defense roll is greater than the attack roll the target takes no damage.</p>
+	</div>
+	<div class="six columns">
+
+
+<p>So, for instance, if the target rolls an 8 on defense, any attack roll from 8 up to 15 would do just 1 hit of damage. A roll of 16 through 23 would do 2 hits. A roll of 24 through 31 would do 3 hits, and so on.</p>
+
+<p>Note: Some weapons do extra damage; this damage counts even if the base damage is 0.</p>
+
+<p><b>Armor:</b> Armor is discarded when the fighter takes a number of points of Health damage equal to the Health bonus the armor grants. So if a fighter wearing Light Armor (+1 Health) suffers 1 hit, he instantly discards his Light Armor. A fighter may not wear more than one suit of armor at a time.</p>
+
+<p><b>Surviving:</b> If the attack did not reduce the target’s Health to 0, he’s still alive. But any further attacks against him are rolled against his new Health. However, if he can use a card, or get to a blood counter, he can restore Health.</p>
+
+<p><b>Fragged:</b> If the Health of the target drops to 0 or less, and he can’t cure it instantly with cards, he is fragged. He is out of play until his next turn, when he respawns. The attacker marks a frag on his record sheet. If it’s  his third frag, he wins. Otherwise, he draws a Special card immediately.</p>
+
+<p><b>Leftovers:</b> The fragged fighter is replaced by a blood counter and (probably) a weapon counter. Both are placed in his square before the attacker’s turn continues. Anyone entering that square may pick up ONE counter, but not both.</p>
+
+<p><b>Blood Counter:</b> A red marker. A fighter who picks up the blood counter may put it on his character sheet and spend it at any time as a “medpack” to restore  1 point of lost Health.</p>
+
+<p><b>Weapon Counter:</b> The target’s gadget cards are discarded. If he had any weapon cards, put them beside the map. Put a Weapon Counter on top of them and a matching counter on the square where the target was fragged.</p>
+
+<p>If a fighter picks up a dropped weapon counter, he canlook at all the weapon cards there and choose ONE. It goes into the player’s hand. You cannot grab more than one weapon from a pile in one turn, even if you move back through the square. If weapons remain in the pile, put the counter back; you can’t pick it up again this turn. When you grab a dropped weapon, it always has a full ammo load.</p>
+
+<p><b>Keep Fighting:</b> Scoring a frag does not end your turn. If you have movement or attacks left, keep going. If you have enough movement, pick up your victim’s leftovers!</p>
+	</div>
+</div>
+
+<div class="row">
+ <hr />
+</div>
+
+<div class="row">
+	<div class="six columns">
+<p>Dropping Weapons and Gadgets: A fighter can choose to drop a weapon or gadget card he has in play at any time during his turn. A link counter is placed in that space and linked to the dropped item. These may be picked up using the “Leftovers” rules above. You cannot pick up an item on the same turn you dropped it.</p>
+
+<h3>Winning</h3>
+<p>The game ends when a player scores three frags. Note that you cannot, under any circumstance, score a frag against yourself.</p>
+
+<p>In a tournament, the winning player earns the right to increase one of his stats by 1 before the next round. For a longer game, play to more frags.</p>
+	</div>
+	<div class ="six columns">
+		<h3>Meta Rules</h3>
+<p>If you forget to declare a bonus, you have until the next die roll to remember and claim the bonus. After that, too bad. If you use a card to take someone out of play, all die rolls they have made up to that moment count, and they keep all cards they have drawn. But if you use Disconnect (for instance) on someone who has hit you but not yet rolled damage, you do not take any damage at all.</p>
+
+<p>Any time a stat is added to AND multiplied, the multiplication takes place first and then the addition. For instance, if one card gives you +2 to your Health, and another doubles all your stats, start by doubling your Health and then add 2.</p>
+
+<p>If you think a rule is unclear and you insist on (gasp) applying logic to it, remember to use the logic of a computer game and not of the real world!</p>
+	</div>
+</div>  
+  
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="javascripts/app.js"></script>
+
+  
+    <script>
+    $(window).load(function(){
+      //$("#featured").orbit();
+    });
+
+    $(".btn_plus").click(function(){
+    	var f = $(this).parents(".plus_minus_group").children(".seven").children("input");
+    	$(f).val(parseInt($(f).val())+1);
+    	return false;
+    });
+
+    $(".btn_minus").click(function(){
+    	var f = $(this).parents(".plus_minus_group").children(".seven").children("input");
+    	$(f).val(parseInt($(f).val())-1);
+    	return false;
+    });
+
+    $("#roll_btn").click(function(){
+    	var atk=parseInt($("#atk_die").val());
+    	var def=parseInt($("#def_die").val());
+    	
+    	var atk_tot = 0;
+    	var def_tot = 0;
+    	var atk_str = "";
+    	var def_str = "";
+
+    	for(var x=0; x<atk; x++)
+    	{
+    		var d = Math.floor(Math.random() * 6) + 1;
+    		atk_str +=" "+d;
+    		atk_tot += (d);
+    	}
+
+    	for(var x=0; x<def; x++)
+    	{
+    		var d = Math.floor(Math.random() * 6) + 1;
+    		def_str +=" "+d;
+    		def_tot += (d);
+    	}
+
+    	$("#result_attack").val(atk_tot+" ("+atk_str+" )");
+    	$("#result_defence").val(def_tot+" ("+def_str+" )");
+		$("#result_damage").val(Math.floor(atk_tot/def_tot));
+		return false;
+    });
+    </script> 
+  
+</body>
+</html>
