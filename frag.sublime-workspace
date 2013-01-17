@@ -1,0 +1,380 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"def",
+				"def_tot"
+			],
+			[
+				"atk",
+				"atk_tot"
+			],
+			[
+				"sta",
+				"stage_right"
+			],
+			[
+				"stage",
+				"stage_left"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"req",
+				"request_params"
+			],
+			[
+				"pa",
+				"password_hashed"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"app",
+				"app_state"
+			],
+			[
+				"co",
+				"contact_email"
+			],
+			[
+				"var",
+				"var_data"
+			],
+			[
+				"parse",
+				"parsed_url"
+			],
+			[
+				"cart",
+				"cart_items"
+			],
+			[
+				"init",
+				"init_ratio"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/frag/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/five_cs.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/locked_app.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/app_lock.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/res/common/AB_LocalStorage_Model.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/res/common/AB_Request_ViewModel.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/res/common/images/img_cache/animation/Pendant_Round_W.mp4",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/res/common/DiamondSearchResultListing.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/res/common/ab_credentials_form.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/setting_visualizer.html",
+		"/Users/kyle/Library/Caches/Cleanup At Startup/Transmit/7D0CFDDB-093E-4D0E-904C-0C69A7DC389F/Model.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/res/common/globals.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/requests.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/res/common/AB_DockNavigation_ViewModel.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/res/common/ab_postbody.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/res/common/AB_SettingsVisualizer_ViewModel.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/constructionconnection/useful_scripts.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/dock_nav.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/siteflow/js/funding.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/siteflow/revenue/index.html",
+		"/Volumes/Macintosh HD/Users/kyle/Downloads/abi_server/public_html/index.html_x",
+		"/Users/kyle/Downloads/security",
+		"/Users/kyle/Downloads/apache2.conf",
+		"/Volumes/Macintosh HD/Users/kyle/Downloads/evenflowpro.com (1)/evenflowpro.com-ssl",
+		"/Users/kyle/Downloads/httpd.conf",
+		"/Volumes/Macintosh HD/Users/kyle/Downloads/apache2.conf",
+		"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/res/common/RequestCartItem.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/siteflow/revenue/js/funding.js",
+		"/Users/kyle/Google Drive/WeVideo_folder_foxshark@gmail.com/Videos/may/MVI_0097.MOV",
+		"/Users/kyle/Movies/ustreamRTMPDump.py",
+		"/Users/kyle/Movies/rtmpsniff.py",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/installing_carrington_build.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/styling_the_sidebar_module.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/integrating_the_css.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/add_a_full-width_page_template.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/adding_images_to_the_carousel_module.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/column_and_row_naming_convention.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/createing_landing_pages.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/creating_custom_build_modules.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/creating_custom_build_rows.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/creating_custom_module_styles.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/customizing_carrington_build_modules.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/module_markup_pattern.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/removing_default_styles.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs/styling_columns_and_rows_from_scratch.html",
+		"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/Documentation.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src/www/res/common",
+			"",
+			"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/src",
+			"/Volumes/sg_work/z_wordpress/plugins/Carrington Build Install/docs",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			"roll",
+			"\"button  alert",
+			"<li><a href=\"#\" class=\"button  success",
+			"<li><a href=\"#\" class=\"button",
+			"<li><a href=\"#\" class=\"button  success radius\"> + </a></li>",
+			"<div class=\"row\">\n  					<div class=\"seven columns\">",
+			"input type=\"text\" pla",
+			"roll",
+			"round\"",
+			"round",
+			"roll",
+			"four columns\">\n						<ul class=\"button",
+			"button small",
+			"four columns\">\n						<ul class=",
+			"class=\"eight",
+			"send_re",
+			"go",
+			"ABV_Server",
+			"self.set",
+			"hash",
+			"context_va",
+			"context_valid",
+			"400",
+			"clear",
+			"get",
+			"post",
+			"server",
+			"get",
+			"check",
+			"obl",
+			"failure_ch",
+			"failure",
+			"nava",
+			"set",
+			"date",
+			"localStora",
+			"getItem",
+			"get",
+			"usern",
+			"username",
+			"set",
+			"post",
+			"searc",
+			"post",
+			"email",
+			"metal",
+			"showing_request_matching_numbers_dialog",
+			"disable",
+			"enable",
+			"send_request",
+			"diamond",
+			"observable",
+			"request_email",
+			"cart_contents_diamonds",
+			"cart_contents_d",
+			"total",
+			"request_email",
+			"data-b",
+			"cart_contents_diamonds",
+			"{\n",
+			"observable",
+			"request_special_note",
+			"model",
+			"view_model",
+			"setting_details",
+			"request_total",
+			"request_cart",
+			"request_total",
+			"currency",
+			"total",
+			"setting_details",
+			"deta",
+			"match_d_",
+			"d_",
+			"show_setting_details_dialog",
+			"setting det",
+			"showing_setting_details_dialog",
+			"setting deta",
+			"alert",
+			"aler",
+			"alert",
+			"aler",
+			"alert",
+			"request_send",
+			".crt",
+			".cr",
+			"csr",
+			"ssl",
+			"ratio",
+			"init_rat",
+			"init_grid",
+			"initGrid",
+			"makemo",
+			"</option><option",
+			"serv",
+			"remote_server",
+			"request_send",
+			"js",
+			"request_send",
+			"%",
+			"cost",
+			"<a href=\"docs/\">Carrington Build Docs</a>",
+			"Contexnts",
+			"http://crowdfavorite.com/wordpress/carrington-build/docs",
+			"css"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\"btn_minus button  alert",
+			"<li><a href=\"#\" class=\"btn_plus button  success",
+			"<li><a href=\"#\" class=\"btn_plus button",
+			"<li><a href=\"#\" class=\"btn_plus button  success radius\"> + </a></li>",
+			"<div class=\"row plus_minus_group\">\n  					<div class=\"seven columns\">",
+			"input type=\"text\" value=\"0\" pla",
+			"input type=\"text\" value=\"o\" pla",
+			"radius\"",
+			"radius",
+			"five columns\">\n						<ul class=\"button",
+			"button ",
+			"five columns\">\n						<ul class=",
+			"class=\"seven",
+			"/\\n/",
+			"/\\l/",
+			"<a href=\"../Documentation.html\">Carrington Build Docs</a>",
+			"Contents",
+			"docs"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"f",
+				"src/www/five_cs.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/XAMPP/xamppfiles/htdocs/abi_ipad/abv-mobile-html.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true
+}

@@ -22,7 +22,15 @@
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="stylesheets/foundation.min.css">
   <link rel="stylesheet" href="stylesheets/app.css">
+  <style type="text/css">
+  	.no_top {
+  		margin-top:0;
+  	}
 
+  	.right {
+  		float: right;
+  	}
+  </style>
   <script src="javascripts/modernizr.foundation.js"></script>
 
   <!-- IE Fix for HTML5 Tags -->
@@ -152,54 +160,9 @@
 
     <div class="four columns">
 		<div class="panel">
-			<h3>Equiptment</h3>
-		</div>
-		<fieldset>
-				<legend>Gun 1</legend>	
-				<div class="row">
-					<div class="twelve columns">
-						<label for="customDropdown">Dropdown Label</label>
-						  <select class="support attribute" style="display:none;" id="customDropdown">
-						    <option SELECTED>Select G</option>
-						    <option>G1</option>
-						    <option>G2</option>
-						    <option>G3</option>
-						  </select>
-						  <div class="custom dropdown">
-						    <a href="#" class="current">
-						      Select G
-						    </a>
-						    <a href="#" class="selector"></a>
-						    <ul>
-						      <li>Select G</g>
-						      <li>G1</li>
-						      <li>G2</li>
-						      <li>G3</li>
-						    </ul>
-						  </div>
-					</div>
-				</div>
-  				<div class="row plus_minus_group">
-  					<div class="seven columns">
-						<input type="text" value="0" placeholder="Base">
-					</div>
-					<div class="five columns">
-						<ul class="button-group radius">
-						  <li><a href="#" class="btn_plus button success radius"> + </a></li>
-						  <li><a href="#" class="btn_minus button alert radius"> - </a></li>
-						</ul>
-					</div>
-				</div>
-			</fieldset>
-    </div>
-
-    <div class="four columns">
-		<div class="panel">
 			<h3>Attack</h3>
 		</div>
-		<div class="row">
-			<form>
-				<fieldset>
+				<fieldset class="no_top">
 					<legend>Calculate Damage</legend>
 					<label>Attack Die</label>
 					<div class="row plus_minus_group">
@@ -229,24 +192,163 @@
 				
 					<div class="row">
 						<div class="twelve columns">
-							<a href="#" id="roll_btn" class="button  success radius">ROLL<a/>
+							<a href="#" id="roll_btn" class="button radius right">ROLL</a>
 						</div>
 					</div>
 					<br>
-				</fieldset>
-
-				<fieldset>
-					<legend>Damage</legend>
 					<div class="row" id="roll_result">
-						<input type="text" id="result_attack" placeholder="Attack Roll" disabled>
-						<input type="text" id="result_defence" placeholder="Defence Roll" disabled>
-						<input type="text" id="result_damage" placeholder="Damage Taken" disabled>
+						<div class="twelve columns">
+							<input type="text" id="result_attack" placeholder="Attack Roll" disabled>
+							<input type="text" id="result_defence" placeholder="Defence Roll" disabled>
+							<input type="text" id="result_damage" placeholder="Damage Taken" disabled>
+						</div>
 					</div>
 				</fieldset>
-			</form>
-		</div>
+			
+				<fieldset class="no_top">
+					<legend>Roll Anything</legend>
+					<label>Number of Die</label>
+					<div class="row plus_minus_group">
+	  					<div class="seven columns">
+							<input type="text" value="0" id="any_die" placeholder="0">
+						</div>
+						<div class="five columns">
+							<ul class="button-group radius">
+							  <li><a href="#" class="btn_plus button  success radius"> + </a></li>
+							  <li><a href="#" class="btn_minus button  alert radius"> - </a></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="row">
+						<div class="twelve columns">
+							<a href="#" id="any_roll_btn" class="button radius right">ROLL</a>
+						</div>
+					</div>
+					<br>
+					<div class="row" id="any_roll_result">
+						<div class="twelve columns">
+							<input type="text" id="result_any" placeholder="Die Roll" disabled>
+						</div>
+					</div>
+				</fieldset>
     </div>
-</form>
+
+
+    <div class="four columns">
+		<div class="panel">
+			<h3>Players</h3>
+		</div>
+		<fieldset>
+				<legend>Current Player</legend>
+				<div class="row">
+					<div class="twelve columns">
+						<label for="customDropdown">Player</label>
+						  <select class="support attribute" style="display:none;" id="customDropdown">
+						    <option>Red</option>
+						    <option>Orange</option>
+						    <option>Yellow</option>
+						    <option>Green</option>
+						    <option>Blue</option>
+						  </select>
+						  <div class="custom dropdown">
+						    <a href="#" class="current">
+						      Select Player
+						    </a>
+						    <a href="#" class="selector"></a>
+						    <ul>
+						      <li>Select Color</g>
+						      <li>Red</li>
+						      <li>Orange</li>
+						      <li>Yellow</li>
+						      <li>Green</li>
+						      <li>Blue</li>
+						    </ul>
+						  </div>
+					</div>
+				</div>
+		</fieldset>
+		<fieldset>
+				<legend>Scoreboard</legend>
+				<div class="row">
+					<div class="twelve columns">
+						<div class="row">
+							<div class="nine columns">
+								Bob
+							</div>
+							<div class="one columns">
+							  <input type="checkbox" id="checkbox1" style="display: none;"><span class="custom checkbox"></span>
+							</div>
+							<div class="one columns">
+							  <input type="checkbox" id="checkbox2" checked style="display: none;"><span class="custom checkbox checked"></span>
+							</div>
+							<div class="one columns">
+							  <input type="checkbox" CHECKED id="checkbox3">
+							</div>
+					    </div>
+
+					    <div class="row">
+							<div class="nine columns">
+								Robert
+							</div>
+							<div class="one columns">
+							  <input type="checkbox" id="checkbox1" style="display: none;"><span class="custom checkbox"></span>
+							</div>
+							<div class="one columns">
+							  <input type="checkbox" id="checkbox2" checked style="display: none;"><span class="custom checkbox checked"></span>
+							</div>
+							<div class="one columns">
+							  <input type="checkbox" CHECKED id="checkbox3">
+							</div>
+					    </div>
+					</div>
+				</div>
+				<br>
+		</fieldset>
+		<fieldset>
+				<legend>Add Player</legend>	
+				<div class="row">
+					<div class="twelve columns">
+						<label>Player Name</label>
+						<input type="text" value="" placeholder="Name">
+					</div>
+					<div class="twelve columns">
+						<label for="customDropdown">Color</label>
+						  <select class="support attribute" style="display:none;" id="customDropdown">
+						    <option>Red</option>
+						    <option>Orange</option>
+						    <option>Yellow</option>
+						    <option>Green</option>
+						    <option>Blue</option>
+						  </select>
+						  <div class="custom dropdown">
+						    <a href="#" class="current">
+						      Select Color
+						    </a>
+						    <a href="#" class="selector"></a>
+						    <ul>
+						      <li>Select Color</g>
+						      <li>Red</li>
+						      <li>Orange</li>
+						      <li>Yellow</li>
+						      <li>Green</li>
+						      <li>Blue</li>
+						    </ul>
+						  </div>
+					</div>
+					<div class="twelve columns">
+						<a href="#" id="roll_btn" class="button radius right">ADD PLAYER</a>
+					</div>
+				</div>
+				<br>
+			</fieldset>
+    </div>
+
+</div>
+
+
+<div class="row">
+ <hr />
 </div>
 
 <div class="row">
@@ -458,6 +560,23 @@ automatic hit and an automatic miss), the last one played is the one that contro
     	$("#result_attack").val(atk_tot+" ("+atk_str+" )");
     	$("#result_defence").val(def_tot+" ("+def_str+" )");
 		$("#result_damage").val(Math.floor(atk_tot/def_tot));
+		return false;
+    });
+
+    $("#any_roll_btn").click(function(){
+    	var any_die =parseInt($("#any_die").val());
+    	
+    	var any_tot = 0;
+    	var any_str = "";
+
+    	for(var x=0; x<any_die; x++)
+    	{
+    		var d = Math.floor(Math.random() * 6) + 1;
+    		any_str +=" "+d;
+    		any_tot += (d);
+    	}
+
+    	$("#result_any").val(any_tot+" ("+any_str+" )");
 		return false;
     });
     </script> 
